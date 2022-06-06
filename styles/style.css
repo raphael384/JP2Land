@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* color :
+92B4EC bleu
+FFFFFF  blanc
+  jaune clair
+FFD24C  jaune foncé
+*/
+
+/* haut de la page*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.logo {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    padding: 0px;
+    font-family: Kanit;
+    background-color: #36393f;
+}
+
+.top-page {
+    padding-bottom: 60px;
+}
+
+
+
+h1.title {
+    color: #92B4EC;
+    font-size: 100px;
+    font-family: 'Kanit';
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+
+}
+
+.subtitle {
+    width: 300px;
+    height: 20px;
+    background-color: #f1c40f;
+    margin: 0 auto;
+    margin-top: 0px;
+    
+}
+
+h2.title {
+    font-size: 25px;
+    color: #f1c40f;
+    font-family: 'Kanit';
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 33%;
+    margin-left: 33%;
+    margin-bottom: 20px;
+
+}
+
+nav li a {
+    color: #f1c40f;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+img.jp2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 30px;
+    border: solid #155f34 4px;
+}
+
+
+/* prof */
+
+
+.section-title {
+    color: #f1c40f;
+    font-size: 30px;
+    text-align: center;
+}
+
+.prof-model {
+    display: flex;
+    margin-top: 25px;
+    justify-content: flex-start;
+}
+
+.prof-name-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+
+.prof-name {
+    margin-bottom: 0px;
+    color: #9b59b6;
+    margin-top: 0%;
+}
+
+
+.prof-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border-color: #9b59b6;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+
+.prof-description {
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* atypical places */
+
+.atypicals-places {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toilets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-title {
+    color: #3498db;
+    text-align: center;
+    
+}
+
+.photo-toilets {
+    width: 75%;
+    border-radius: 30px;
+    border-color: #3498db;
+    border-width: 10px;
+    border-style: solid;
+    
+}
+
+.toilets-text {
+    color: white;
+    width: 75%;
+    text-align: justify;
+    text-indent: 3%;
+}
+
+/* atypoicals items */
+
+
+.atypicals-items {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+}
+
+.atypicals-items-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.atypical-item {
+    padding: 5px;
+    width: 45%;
+}
+
+.item-photo {
+ width: 90%;
+ border-radius: 20%;
+ border-color: #3498db;
+ border-width: 10px;
+ border-style: solid;
+}
+
+.item-text {
+    color: white;
+    text-indent: 10%;
+    text-align: justify;
+}
+
+/* quiz */
+
+.quiz-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-subtitle {
+    color: #2ecc71;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2ecc71;
+}
+
+.question::before {
+    content: " -- ";
+}
+.answer {
+    cursor: pointer;
+}
+
+.answer::before {
+    content: "- ";
+}
+
+.refresh {
+    color: #2ecc71;
+    cursor: pointer;
+}
+
