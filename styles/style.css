@@ -60,6 +60,7 @@ h1.title {
 
 h2.title {
     font-size: 25px;
+    margin-bottom: 19px;
     color: #f1c40f;
     font-family: 'Kanit';
     text-align: center;
@@ -94,6 +95,33 @@ img.jp2 {
     height: 20%;
     border-radius: 30px;
     /*border: solid #2ecc71 6px; */
+}
+
+
+/* warning */
+
+.warning {
+    display: flex;
+    padding-right: 15%;
+    padding-left: 15%;
+    color: white;
+    flex-direction: row;
+}
+
+.warning-gif {
+    width: 20%;
+    height: 20%;
+    border-radius: 10%;
+}
+
+.warning-text {
+    margin-left: 15px;
+
+}
+
+h2 {
+    margin: 0%;
+    color: red;
 }
 
 
@@ -136,6 +164,10 @@ img.jp2 {
     border-width: 10px;
     margin-left: 30px;
     margin-right: 20px;
+}
+
+.loirat-photo {
+    cursor: url('img/poop.png'), auto;
 }
 
 
@@ -259,6 +291,22 @@ img.jp2 {
 .refresh {
     color: #2ecc71;
     cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: smaller;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
 }
 
 

@@ -1,4 +1,4 @@
-const questionsTexts = [
+var questionsTexts = [
     "C'est le premier jour de cours !",
     "C'est le chahut dans la classe ...",
     "Un élève ne comprend pas une notion ...",
@@ -11,7 +11,7 @@ const questionsTexts = [
     "Tu surprends des élèves qui s'embrassent ..."
 
 ]
-const loiratTexts = [
+var loiratTexts = [
     "Il va falloir rester vigilant et suivre le règlement a la lettre.",
     "Pas besoin d'élever la voix, un regard sombre suffit",
     "Tu le prends en particulier, il risque de ne pas avoir son brevet",
@@ -23,7 +23,7 @@ const loiratTexts = [
     "Tu expliques sans aucun calme qu'il faut rester calme.",
     "S'ensuit une copieuse distribution d'heures de colles, d'humiliations publiques, d'homélies sur les relations affectives, etc...",
 ]
-const martineauTexts = [
+var martineauTexts = [
     "Et merde, il faut retourner bosser ...",
     "\"Me faites pas chier, on est lundi !!\"",
     "Tu expliques rapidement, pas de temps à perdre, on n'a pas que ça à foutre.",
@@ -35,19 +35,19 @@ const martineauTexts = [
     "\"Allez, on se lève et on la ferme...\"",
     "Tu éclates de rire"
 ]
-const troadecTexts = [
+var troadecTexts = [
     "Je vais découvrir mes nouvelles classes, pourvu qu'ils soient gentils.",
     "Tu fuis, il n'y a rien à faire.",
     "Tu répètes encore et encore ce qu'il y a écrit dans la leçon.",
     "Tu quittes définitivement cet établissement horrible.",
     "Beaucoup plus jeunes et gentils",
-    "Tu le vis déjà !",
+    "Des élèves encore plus méchants",
     "Jardinier",
     "Je vais enfin retrouver ma liberté !",
     "C'est quoi ?",
     "Choqué, tu passes ton chemin"
 ]
-const charetteTexts = [
+var charetteTexts = [
     "Tout est préparé, on commence par 6 mois de revisions.",
     "\"Taisez-vous ! Ou je mets un exercice noté !\"",
     "Hélas, tu est définitivement un prof incompris.",
