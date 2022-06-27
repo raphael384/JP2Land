@@ -128,8 +128,9 @@ img.jp2 {
 
 
 .prof-photo {
-    width: 15%;
-    border-radius: 20%;
+    width: 20%;
+    height: 20%;
+    border-radius: 15%;
     border-color: #9b59b6;
     border-style: solid;
     border-width: 10px;
@@ -142,6 +143,7 @@ img.jp2 {
 .prof-description {
     color: white;
     margin-top: 10px;
+    text-indent: 3%;
 }
 
 
@@ -201,7 +203,7 @@ img.jp2 {
     flex-direction: column;
     align-items: center;
     padding: 5px;
-    width: 50%;
+    width: 100%;
 }
 
 .item-photo {
@@ -242,11 +244,12 @@ img.jp2 {
     color: #2ecc71;
 }
 
-.question::before {
-    content: " -- ";
-}
 .answer {
     cursor: pointer;
+} 
+
+.answer:hover {
+    text-decoration: underline;
 }
 
 .answer::before {
@@ -268,11 +271,18 @@ img.jp2 {
 
     .atypicals-items-container {
         flex-direction: column;
+        align-items: center;
         padding: 0%;
     }
 
     .item-text {
         margin: 0%;
+        margin-left: 0px;
+        border-width: 0%;
+    }
+
+    p {
+        font-size: small;
     }
     
 }
