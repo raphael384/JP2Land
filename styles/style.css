@@ -326,6 +326,32 @@ footer {
         align-items: center;
     }
 
+    .warning {
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+
+    .warning-gif {
+        font-size: 4em;
+    }
+    .warning-text {
+        text-align: center;
+    }
+
+    .prof-model {
+        flex-direction: column;
+        align-items: center;
+    }
+    .prof-name {
+        text-align: center;
+    }
+
+    .prof-description {
+        text-align: justify;
+    }
+
     .atypicals-items-container {
         flex-direction: column;
         align-items: center;
@@ -342,15 +368,7 @@ footer {
         font-size: small;
     }
 
-    .warning {
-        flex-direction: column;
-        align-items: center;
-
-        
-    }
-    .warning-gif {
-        font-size: 4em;
-    }
+    
     footer {
         flex-direction: column;
         align-items: center;
